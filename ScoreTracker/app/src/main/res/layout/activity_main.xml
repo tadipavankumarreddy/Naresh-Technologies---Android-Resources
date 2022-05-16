@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Toast"
+        android:onClick="showToast"
         />
 
     <TextView
@@ -32,6 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Count"
+        android:onClick="showCount"
         />
 
 </LinearLayout>
