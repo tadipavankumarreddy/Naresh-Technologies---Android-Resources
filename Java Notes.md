@@ -710,3 +710,20 @@ class Main{
 ```
 Non Static Member of a class cannot be called directly from a static instance
 ![Example-Image](https://raw.githubusercontent.com/tadipavankumarreddy/Naresh-Technologies---Android-Resources/master/ref_img.png)
+
+- Java static blocks
+  - It can be used to initialize the static data member
+  - It is something that gets executed before the main() method, so, if you want to perform any logic before the main method is called, you can use static block
+
+Example
+```java
+class Main{
+    static{
+        System.out.println("I get printed first!");
+    }
+    public static void main(String args[]){
+        System.out.println("I get printed next to static block");
+    }
+}
+```
+
