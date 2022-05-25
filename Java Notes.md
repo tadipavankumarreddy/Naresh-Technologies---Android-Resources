@@ -640,6 +640,7 @@ Two Types of Variables
 - Java Static Variables
   - static variables are defines using ```static``` keyword.
   - if you have a common property that needs to be applied for all the objects that you create for a class - then, to manage the memory well, you can use a static variable.
+  - You can access the static variable without creating an instance of the class.
 
 Example
 
@@ -663,6 +664,45 @@ class Main{
         Count c3 = new Count();
         
         Count.displayTotalNumber();
+    }
+}
+```
+
+- Java Static Methods
+  - Java static methods belong to the class than that of the instances/ objects that you create for the class
+  - Static methods can be accessed without a need to create an object for the classes
+  - Java static methods can access the java static variables and change the value in them.
+
+```java
+class Student{
+    String name;
+    int student_id;
+    static String college_name = "Naresh Technologies College";
+    
+    public static void change(){
+        college_name = "Naresh IT Technologies";
+    }
+    
+    Student(String n, int s_id){
+        name = n;
+        student_id = s_id;
+    }
+    
+    public void display(){
+        System.out.println(name+" "+student_id+" "+college_name);
+    }
+}
+
+class Main{
+    public static void main(String args[]){
+        Student s1 = new Student("PAVAN",123);
+        Student s2 = new Student("Aman",456);
+        Student.change();
+        Student s3 = new Student("Darshana",789);
+        
+        s1.display();
+        s2.display();
+        s3.display();
     }
 }
 ```
