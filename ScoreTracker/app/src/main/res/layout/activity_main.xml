@@ -17,8 +17,7 @@
         />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/textview_result"
         android:text="0"
         android:layout_weight="8"
         android:gravity="center"
@@ -26,6 +25,8 @@
         android:textColor="#000C47"
         android:textSize="100sp"
         android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         />
 
     <Button
