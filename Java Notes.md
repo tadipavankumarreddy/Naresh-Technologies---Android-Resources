@@ -708,3 +708,5 @@ class Main{
     }
 }
 ```
+Non Static Member of a class cannot be called directly from a static instance
+![Example-Image](https://raw.githubusercontent.com/tadipavankumarreddy/Naresh-Technologies---Android-Resources/master/ref_img.png)
