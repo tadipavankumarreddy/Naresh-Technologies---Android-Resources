@@ -672,6 +672,8 @@ class Main{
   - Java static methods belong to the class than that of the instances/ objects that you create for the class
   - Static methods can be accessed without a need to create an object for the classes
   - Java static methods can access the java static variables and change the value in them.
+  - You cannot access non static members (variables & objects ) directly from a static method.
+  - ```this``` and ```super``` keywords in the static context.
 
 ```java
 class Student{
