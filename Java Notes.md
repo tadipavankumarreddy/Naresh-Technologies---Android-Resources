@@ -726,4 +726,82 @@ class Main{
     }
 }
 ```
+### ```this``` keyword in java
+- ```this``` is a reference variable that refers to the current object
+- Uses of ```this``` keyword
+  - this can be used to implicitly invoke current class Method
+  - this() can be used to invoke the current class constructor
+  - this can be passed as an arg in the method call
+
+Example (using ```this``` to refer to the current class instance variables)
+```java
+class Employee{
+    String name;
+    int id;
+    int salary;
+    
+    Employee(String name, int id, int salary){
+      this.name = name;  
+      this.id = id;
+      this.salary = salary;
+    }
+    
+    public void print(){
+        System.out.println(name+" "+id+" "+salary);
+    }
+}
+```
+Example (invoke the current class method  with the help of ```this``` keyword)
+```java
+class Employee{
+    String name;
+    int id;
+    int salary;
+    
+    Employee(String name, int id, int salary){
+      this.name = name;  
+      this.id = id;
+      this.salary = salary;
+    }
+    
+    public void print(){
+        System.out.println(name+" "+id+" "+salary);
+        this.printDevName(); // same as that of calling the method without this keyword
+    }
+    
+    public void printDevName(){
+        System.out.println("The developer is anonymous");
+    }
+}
+```
+Example (how to use ```this``` keyword to call the current class constructor)
+```java
+class Employee{
+    String name;
+    int id;
+    int salary;
+    
+    Employee(String name){
+        this(name, 123, 30000);
+    }
+    
+    Employee(String name, int id, int salary){
+        this.name = name;
+        this.id = id;
+        this.salary = salary;
+    }
+    
+    public void print(){
+        System.out.println(name+" "+id+" "+salary);
+        this.printDevName(); // same as that of calling the method without this keyword
+    }
+    
+    public void printDevName(){
+        System.out.println("The developer is anonymous");
+    }
+}
+```
+
+
+
 
