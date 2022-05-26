@@ -868,8 +868,7 @@ class Main{
     - variables (The value that you assigned for a final variable cannot be changed - It becomes a constant) 
     - methods (if you apply final keyword for methods, they cannot be overrided in the subclasses)
     - class (if you apply final keyword for classes, they cannot be inherited by other classes)
-
-
+![Final classes](https://raw.githubusercontent.com/tadipavankumarreddy/Naresh-Technologies---Android-Resources/master/Screenshot%202022-05-26%20201942.png)
 
 
 
