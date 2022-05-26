@@ -802,6 +802,76 @@ class Employee{
 }
 ```
 
+### Abstract classes in Java
+- When you declare a class with ```abstract``` keyword, that becomes an abstract class
+- In abstract classes we can include method with definition and methods without definition (Methods without definition are called abstract methods)
+#### Abstraction
+  - Abstraction is the process of hiding the implementation details and also showing the functionality to the user.
+  - Two ways to achieve abstraction in Java
+      1. abstract classes (0% to 100%) 
+      2. interfaces (100%)
+
+##### Important points to remember when it comes to abstract classes
+- Abstract classes must be inherited by other classes where the definition of abstract methods of the class will be written.
+- Abstract classes cannot be instantiated (you cannot create objects for abstract classes).
+- abstract classes can have static methods and Constructors.
+- You can also define ```final``` methods which will force the subclass not to modify the defined methods.
+
+How to define an Abstract class ?
+```java
+abstract class RBI{
+    
+}
+```
+Example
+
+```java
+abstract class RBI{
+    RBI(){
+        System.out.println("This bank follows RBI guidelines and is a RBI registered bank");
+    }
+    public abstract int homeLoanInterestRate(); // this is an abstract method - This method will not have any definition.
+    public final int personalLoanInterestRate(){
+        return 7;
+    }
+}
+
+class SBI extends RBI{
+    public int homeLoanInterestRate(){
+        // you can define body here in the subclass
+        return 17;
+    }
+}
+
+class ICICI extends RBI{
+    public int homeLoanInterestRate(){
+        //banks are given an opportunity to charge what ever the interest rate that they want to collect on home loan
+        return 19;
+    }
+}
+
+class Main{
+    public static void main(String args[]){
+        SBI s = new SBI();
+        System.out.println(s.homeLoanInterestRate()+"%");
+        System.out.println(s.personalLoanInterestRate()+"%");
+        
+        ICICI i = new ICICI();
+        System.out.println(i.homeLoanInterestRate()+"%");
+        System.out.println(i.personalLoanInterestRate()+"%");
+    }
+}
+```
+### Final Keyword in java
+- ```final``` keyword is used to restrict the user to perform certain actions. 
+- ```final``` can be used for
+    - variables (The value that you assigned for a final variable cannot be changed - It becomes a constant) 
+    - methods (if you apply final keyword for methods, they cannot be overrided in the subclasses)
+    - class (if you apply final keyword for classes, they cannot be inherited by other classes)
+
+
+
+
 
 
 
