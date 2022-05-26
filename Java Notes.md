@@ -870,7 +870,23 @@ class Main{
     - class (if you apply final keyword for classes, they cannot be inherited by other classes)
 ![Final classes](https://raw.githubusercontent.com/tadipavankumarreddy/Naresh-Technologies---Android-Resources/master/Screenshot%202022-05-26%20201942.png)
 
+Example
 
-
+```java
+class Main{
+    public static final int age = 10;
+    public static void main(String args[]){
+        age = 11;
+        System.out.println(age);
+    }
+}
+```
+Output:
+```
+Main.java:4: error: cannot assign a value to final variable age
+        age = 11;
+        ^
+1 error
+```
 
 
