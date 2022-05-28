@@ -972,4 +972,64 @@ class Main{
 ###### How to implement Multiple inheritance using interfaces?
 ![Reference Image](https://raw.githubusercontent.com/tadipavankumarreddy/Naresh-Technologies---Android-Resources/master/ref_img_2.png)
 
+Two Simple points to remember
+- You can ```implements``` an interface in a class.
+- you can ```extends``` an interface into another interface.
 
+Example
+```java
+interface A{
+    void printMessage();
+}
+
+interface B{
+    void display();
+}
+
+class C implements A,B{
+    public void printMessage(){
+        System.out.println("This is my message");
+    }
+    
+    public void display(){
+        System.out.println("Hello World!");
+    }
+}
+
+class Main{
+    public static void main(String args[]){
+        C c = new C();
+        c.printMessage();
+        c.display();
+    }
+}
+````
+
+- You can ```extends``` to a class from a class and also ```implements``` multiple interfaces.
+
+Example:
+```java
+interface A{
+    void printMessage();
+}
+
+class B{
+    public void display(){
+        System.out.println("Hello World!");
+    }
+}
+
+class C extends B implements A{
+    public void printMessage(){
+        System.out.println("This is my message");
+    }
+}
+
+class Main{
+    public static void main(String args[]){
+        C c = new C();
+        c.printMessage();
+        c.display();
+    }
+}
+```
