@@ -906,4 +906,68 @@ interface NareshItTechnologies{
   // Abstract methods
 }
 ```
+Example
+```java
+interface Sample{
+    // you need not to declare a method in an interface as abstract
+    // because by default any method you declare inside an interface is abstract.
+    void display();
+}
+
+// to use an interface in a class, you can use implements keyword in java 
+// extends -> inheriting a class into another class
+// implements -> implement the methods of an interface.
+class A implements Sample{
+    
+    public void display(){
+        System.out.println("Hello World!");
+    }    
+    
+}
+
+class Main{
+    public static void main(String args[]){
+        A a = new A();
+        a.display();
+    }
+}
+```
+
+Example
+
+```java
+// No matter how many times you defined a method of an interface, it is absolutely necessary that 
+// you define it in whatever the class that is implementing the interface
+
+interface Shape{
+    void shapeName();
+}
+
+class Rectangle implements Shape{
+    public void shapeName(){
+        System.out.println("Rectangle");
+    }
+}
+
+class Triangle implements Shape{
+    public void shapeName(){
+        System.out.println("Triangle");
+    }
+}
+
+class Square implements Shape{
+    public void shapeName(){
+        System.out.println("Square");
+    }
+}
+
+class Main{
+    public static void main(String args[]){
+        Triangle t = new Triangle();
+        t.shapeName();
+    }
+}
+```
+
+###### How to implement Multiple inheritance using interfaces?
 
