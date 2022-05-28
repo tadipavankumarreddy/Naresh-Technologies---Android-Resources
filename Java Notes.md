@@ -888,5 +888,22 @@ Main.java:4: error: cannot assign a value to final variable age
         ^
 1 error
 ```
+### Interfaces in java
+- An interface in java is a blueprint of a class
+- It consists of Static Constants and abstract methods (You can only have abstract methods)
+- With interfaces we can be sure of 100% of abstraction.
+- With interfaces, you can also implement Multiple inheritance in java. 
+- Interfaces cannot be instantiated (you cannot create objects for interfaces)
+##### Why Interfaces ?
+- for implementation of abstraction
+- for implementing multiple inheritance
 
+Syntax
+```java
+interface NareshItTechnologies{
+  // Constants
+  ..
+  // Abstract methods
+}
+```
 
