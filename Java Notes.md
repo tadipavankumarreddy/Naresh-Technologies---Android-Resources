@@ -970,4 +970,6 @@ class Main{
 ```
 
 ###### How to implement Multiple inheritance using interfaces?
+![Reference Image](https://raw.githubusercontent.com/tadipavankumarreddy/Naresh-Technologies---Android-Resources/master/ref_img_2.png)
+
 
