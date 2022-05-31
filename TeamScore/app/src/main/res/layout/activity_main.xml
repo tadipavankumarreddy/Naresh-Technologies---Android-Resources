@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -21,50 +20,86 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Player 1"
             android:gravity="center"
-            android:textSize="24sp"
-            android:textStyle="bold"
+            android:text="Player 1"
             android:textColor="#FFFFFF"
-            />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="+"
             android:layout_weight="1"
-            android:textColor="#000000"
             android:backgroundTint="#FFFFFF"
-            />
+            android:text="+"
+            android:onClick="incrementTeam1"
+            android:textColor="#000000" />
 
         <TextView
-            android:text="0"
-            android:layout_weight="5"
-            android:textSize="100sp"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:textColor="#FFFFFF"
+            android:id="@+id/team1_score"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="100sp"
+            android:textStyle="bold" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="-"
             android:layout_weight="1"
-            android:textColor="#000000"
             android:backgroundTint="#FFFFFF"
-            />
+            android:text="-"
+            android:onClick="decrementTeam1"
+            android:textColor="#000000" />
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="#FFF200"
         android:layout_weight="1"
-        >
+        android:background="#FFF200"
+        android:orientation="vertical">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Player 1"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="+"
+            android:onClick="incrementTeam2"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/team2_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="100sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="-"
+            android:onClick="decrementTeam2"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
 </LinearLayout>
