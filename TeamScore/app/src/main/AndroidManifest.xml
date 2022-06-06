@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TeamScore"
         tools:targetApi="31">
+
+        <!--If you want to lock your screen in either portrait mode or in landscape mode
+        use android:screenOrientation="portrait" -> place this attribute in activity tag that you want to lock-->
         <activity
             android:name=".MainActivity"
             android:exported="true">
