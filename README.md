@@ -14,3 +14,12 @@
 
 [learn More on Buttons](https://developer.android.com/reference/android/widget/Button)
 
+#### 06-June-2022
+
+##### Agenda
+- Saving the data acorss the configuration changes of the device (portrait to landscape and vice-versa)
+  - Please explore and read the [documentation](https://developer.android.com/topic/libraries/architecture/saving-states)
+- Desiging Separately for Landscape orientation
+  - Please explore and read the [documentation](https://developer.android.com/reference/androidx/browser/trusted/ScreenOrientation)
+- Freezing the activity to portrait or landscape by using ```android:screenOrientation="portrait"```
+  - Please explore and read the [documentation](https://developer.android.com/reference/androidx/browser/trusted/ScreenOrientation)
