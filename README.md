@@ -51,3 +51,4 @@
     4. onCreate()
     5. onStart()
     6. onResume()
+[Learn how to show logs while the app is in debug mode (in the development process )](https://developer.android.com/studio/debug/am-logcat#:~:text=The%20Logcat%20window%20in%20Android,you%20can%20view%20older%20messages.)
