@@ -23,3 +23,7 @@
   - Please explore and read the [documentation](https://developer.android.com/reference/androidx/browser/trusted/ScreenOrientation)
 - Freezing the activity to portrait or landscape by using ```android:screenOrientation="portrait"```
   - Please explore and read the [documentation](https://developer.android.com/reference/androidx/browser/trusted/ScreenOrientation)
+
+#### 07-June-2022
+- Activity Life cycle
+  - Please explore more here in the [Documentation](https://developer.android.com/guide/components/activities/activity-lifecycle)
