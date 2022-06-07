@@ -27,24 +27,24 @@
 #### 07-June-2022
 - Activity Life cycle
   - Please explore more here in the [Documentation](https://developer.android.com/guide/components/activities/activity-lifecycle)
-- 1. When you launch the Activity
+- When you launch the Activity
     1. onCreate()
     2. onStart()
     3. onResume()
 - Now you activity is visible to the user and the user can interact with it
 - When the user presses the home button or the user opens another application (Lock the screen)
-- 2. Your activity is pushed to background  
+- Your activity is pushed to background  
     1. onPause()
     2. onStop()
-- 3. You pressed the back button on the device to close your activity
+- You pressed the back button on the device to close your activity
     1. onPause()
     2. onStop()
     3. onDestroy()
-- 4. Your activity is in the background. now you opened it again
+- Your activity is in the background. now you opened it again
     1. onRestart()
     2. onStart()
     3. onResume()
-- 5. You rotated the screen from portrait to landscape
+- You rotated the screen from portrait to landscape
     1. onPause()
     2. onStop()
     3. onDestroy()
