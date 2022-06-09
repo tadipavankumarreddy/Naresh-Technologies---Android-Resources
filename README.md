@@ -53,3 +53,14 @@
     6. onResume()
 
 [Learn how to show logs while the app is in debug mode (in the development process )](https://developer.android.com/studio/debug/am-logcat#:~:text=The%20Logcat%20window%20in%20Android,you%20can%20view%20older%20messages.)
+
+#### 08-June-2022
+- Text and Scroll View
+  - [Click here](https://docs.google.com/presentation/d/175zGL-zyK9qWotipn5mZm_kWh0ygeJZhs2EsDPDHX-4/edit#slide=id.g116d7d9d49_3_13) to open slides
+  - [Click here](https://developer.android.com/reference/android/widget/ScrollView) for ScrollView Document
+
+#### 09-June-2022
+- Intents
+   - [Click Here](https://docs.google.com/presentation/d/1kjxsI9brdVRIx3rqoB0H-1-PmVlzJbiQNf4PyqzZKJM/edit#slide=id.g168369f895_0_87) for the presentation
+   - [Click here](https://developer.android.com/guide/components/intents-filters) for Intents and intent filters documentation
+   - Refer to Explicit Intents app for Code (Todos are also mentioned)
