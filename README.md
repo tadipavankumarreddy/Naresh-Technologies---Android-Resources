@@ -64,3 +64,8 @@
    - [Click Here](https://docs.google.com/presentation/d/1kjxsI9brdVRIx3rqoB0H-1-PmVlzJbiQNf4PyqzZKJM/edit#slide=id.g168369f895_0_87) for the presentation
    - [Click here](https://developer.android.com/guide/components/intents-filters) for Intents and intent filters documentation
    - Refer to Explicit Intents app for Code (Todos are also mentioned)
+
+#### 10-June-2022
+- Implicit (Common) Intents
+    - [Click Here](https://developer.android.com/guide/components/intents-common#Phone) to open Common Intents Documentation
+    - [Click Here](https://developer.android.com/reference/com/google/android/material/snackbar/Snackbar) for Snackbar documentation
