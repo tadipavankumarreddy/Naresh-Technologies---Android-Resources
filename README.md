@@ -69,3 +69,10 @@
 - Implicit (Common) Intents
     - [Click Here](https://developer.android.com/guide/components/intents-common#Phone) to open Common Intents Documentation
     - [Click Here](https://developer.android.com/reference/com/google/android/material/snackbar/Snackbar) for Snackbar documentation
+
+#### Assignment -1 (2 Tasks to complete)
+- Create an application that can create an alarm clock and open camera to capture a picture. 
+##### Process to submit the assignment
+- Zip the source code -> upload it to Google drive -> share the link (permission - anybody on can access with the link).
+- Email the link to ```pavankreddy.t@gmail.com```
+- Deadline to complete the assignment is ```13-June-2022```
