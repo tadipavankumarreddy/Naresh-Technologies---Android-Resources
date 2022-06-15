@@ -76,3 +76,6 @@
 - Zip the source code -> upload it to Google drive -> share the link (permission - anybody on can access with the link).
 - Email the link to ```pavankreddy.t@gmail.com```
 - Deadline to complete the assignment is ```13-June-2022```
+
+#### 15-June-2022
+- [Click here](https://developer.android.com/training/constraint-layout) to learn more about constriant layout
