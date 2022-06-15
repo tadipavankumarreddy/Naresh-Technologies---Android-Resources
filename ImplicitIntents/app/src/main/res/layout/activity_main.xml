@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:gravity="center_horizontal"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -51,6 +52,21 @@
         android:onClick="openDailer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Camera"
+        android:onClick="openCamera"
+        android:drawableLeft="@drawable/camera_image"
+        />
+
+    <ImageView
+        android:id="@+id/captured_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
         />
 
 </LinearLayout>
