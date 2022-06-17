@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UI Components</string>
+    <string-array name="countries">
+        <item>Bharath</item>
+        <item>Pakistan</item>
+        <item>Afghanistan</item>
+        <item>China</item>
+        <item>Russia</item>
+        <item>Vietnam</item>
+        <item>USA</item>
+        <item>Scotland</item>
+    </string-array>
+</resources>
