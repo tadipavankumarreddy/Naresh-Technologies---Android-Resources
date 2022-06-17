@@ -79,3 +79,16 @@
 
 #### 15-June-2022
 - [Click here](https://developer.android.com/training/constraint-layout) to learn more about constriant layout
+
+#### 16-June-2022
+#### 17-June-2022
+- Radio Butttons
+    - [Click here](https://developer.android.com/guide/topics/ui/controls/radiobutton) to learn more about the Radio Buttons
+- CheckBoxes
+    - [Click here](https://developer.android.com/guide/topics/ui/controls/checkbox) to learn more about the Check Boxes
+- Spinners
+    - [Click here](https://developer.android.com/guide/topics/ui/controls/spinner) to learn more about the Spinners
+- ToggleButton
+    - [Click here](https://developer.android.com/guide/topics/ui/controls/togglebutton) to learn more about the ToggleButtons
+- Switch
+    - [Click here](https://developer.android.com/reference/android/widget/Switch) to learn more about the Switch
