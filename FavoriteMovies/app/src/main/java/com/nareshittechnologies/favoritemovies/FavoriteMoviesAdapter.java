@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -60,7 +61,14 @@ public class FavoriteMoviesAdapter extends RecyclerView.Adapter<FavoriteMoviesAd
             imageView = itemView.findViewById(R.id.poster);
             mName = itemView.findViewById(R.id.movie_name);
             mActor = itemView.findViewById(R.id.actor_name);
-
+            // We can handle clicks as follows
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    int pos = getAdapterPosition();
+                    Toast.makeText(context, names[pos], Toast.LENGTH_SHORT).show();
+                }
+            });
         }
     }
 }
