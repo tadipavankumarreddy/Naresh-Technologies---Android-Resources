@@ -109,3 +109,9 @@
 - Zip the source code -> upload it to Google drive -> share the link (permission - anybody on can access with the link).
 - Email the link to ```pavankreddy.t@gmail.com```
 - Deadline to complete the assignment is ```01-July-2022```
+
+#### Git & GitHub (Getting started)
+- Visit [git-scm.com](https://git-scm.com/) and install git software on your computers
+- Visit [github.com](https://github.com) and sign up for a free account.
+
+
