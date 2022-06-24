@@ -91,4 +91,21 @@
 - ToggleButton
     - [Click here](https://developer.android.com/guide/topics/ui/controls/togglebutton) to learn more about the ToggleButtons
 - Switch
-    - [Click here](https://developer.android.com/reference/android/widget/Switch) to learn more about the Switch
+    - [Click here](https://developer.android.com/reference/android/widget/Switch) to learn more about the Switch4
+
+#### 18-06-2022 to 24-06-2022
+- List view
+    - [Click here](https://developer.android.com/reference/android/widget/ListView) to learn more
+
+- RecyclerView
+    - [Click here](https://developer.android.com/jetpack/androidx/releases/recyclerview) for Documentation
+    - [Access the PPT](https://docs.google.com/presentation/d/1tLLYBSGl9d8nHc_88007kTOZvXdSY0oqIRF3APIgm34/edit?usp=drive_web&ouid=110137796523185973640)
+
+#### Assignment -2 
+- Create an application that displays 20 freedom fighters of India in the format shown below.
+- When a freedom fighter item is pressed take the users to the next screen and show a detailed content of the freedom fighter
+- [click here](https://www.canva.com/design/DAFEhlDGnXo/p1tbye7_qa6o18AJpafjLA/edit?utm_content=DAFEhlDGnXo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) to access the prototype
+##### Process to submit the assignment
+- Zip the source code -> upload it to Google drive -> share the link (permission - anybody on can access with the link).
+- Email the link to ```pavankreddy.t@gmail.com```
+- Deadline to complete the assignment is ```01-July-2022```
