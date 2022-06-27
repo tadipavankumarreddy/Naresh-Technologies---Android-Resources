@@ -34,9 +34,9 @@
   ```Repository```. You need to save the project by following the steps below
     1. Take all the files that you want to save from the ```working directory``` to the ```staging area```
       - Working directory - is the place where all you project related files along with .git folder resides.
-      - Staging area - This is the place where all the about to be commited files will reside.
-      - git add <File_name> <file_name2>
-      - git add .
+      - Staging area - This is the place where all the about to be commited files will reside. </br>
+      - git add <File_name> <file_name2> </br>
+      - git add .</br>
     2. Now you can run ```git commit``` command to save the files to repository.
       - git commit -m "The short message"
     3. what if you want to check the status of all the files
