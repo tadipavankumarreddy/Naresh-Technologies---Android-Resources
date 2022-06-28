@@ -41,6 +41,19 @@
       - git commit -m "The short message"
     3. what if you want to check the status of all the files
       - git status
+    4. if you want to remove a file that is added to staging area!
+        - git rm --cached fileName
+    5. if you want to check the log (history) of the commits happened on a repository
+        - git log
+        - git log --oneline
+        - git log --reverse
+        - git log -5 
+
+    6. To Move back and forth among the commits
+        - git checkout <Commit ID>
   
+  DVS - Distributed Version Control System
+  CVS - Centralized Version Control System
+    
 
   
