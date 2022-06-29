@@ -55,5 +55,17 @@
   DVS - Distributed Version Control System
   CVS - Centralized Version Control System
     
-
-  
+##### Pushing the code to github
+1. create an account on github and login
+2. create a new repository under public/private
+3. Enter repo folder (git basics on desktop) and open git bash (terminal)
+4. Check if there are remotes added already with the help of the following command
+      - git remote
+5. if no remotes are added, copy your repository url from github and run this command
+      - git remote add origin <url>
+6. After adding the remote, you can push changes to the github repository by running the following command.
+      - git push origin master
+7. Command to get the updates happend on the repository (github) 
+      - git pull origin master
+8. You found a repository and you want to download all of its contents
+      - git clone <url>
