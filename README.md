@@ -114,4 +114,6 @@
 - Visit [git-scm.com](https://git-scm.com/) and install git software on your computers
 - Visit [github.com](https://github.com) and sign up for a free account.
 
-
+#### TabNavigation
+- [click here](https://developer.android.com/guide/navigation/navigation-swipe-view) to learn more about TabNavigation
+- [Click here](https://developer.android.com/guide/fragments/lifecycle) to learn more about Fragments 
