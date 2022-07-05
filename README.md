@@ -117,3 +117,7 @@
 #### TabNavigation
 - [click here](https://developer.android.com/guide/navigation/navigation-swipe-view) to learn more about TabNavigation
 - [Click here](https://developer.android.com/guide/fragments/lifecycle) to learn more about Fragments 
+
+#### Image Loading Libraries for Android
+- [Click here](https://github.com/bumptech/glide) to explore Glide
+- [Click here](https://square.github.io/picasso/) to explore Picasso
