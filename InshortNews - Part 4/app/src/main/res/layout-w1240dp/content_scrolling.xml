@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DetailsActivity"
+    tools:showIn="@layout/activity_details">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/title_news_details"
+        android:layout_width="match_parent"
+        android:text="This is the Title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000C39"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/content"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="200dp"
+        android:text="@string/large_text" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="readMore"
+        android:text="Read More" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="readOriginal"
+        android:text="Read Original" />
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>
