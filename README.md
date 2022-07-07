@@ -121,3 +121,11 @@
 #### Image Loading Libraries for Android
 - [Click here](https://github.com/bumptech/glide) to explore Glide
 - [Click here](https://square.github.io/picasso/) to explore Picasso
+
+#### Gson Library to serialize and deserialise Json to pojo and viceversa
+- [Click here](https://github.com/google/gson) to explore 
+- [Click here](https://www.jsonschema2pojo.org/) to generate pojo classes automatically based on the JSON Response
+
+#### Google Custom Chrom tabs
+- [Click here](https://developer.chrome.com/docs/android/custom-tabs/integration-guide/) to see the implementation of Google Custom chrome tabs in Android
+- [Set up an icon for your project](https://developer.android.com/studio/write/image-asset-studio)
