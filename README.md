@@ -129,3 +129,13 @@
 #### Google Custom Chrom tabs
 - [Click here](https://developer.chrome.com/docs/android/custom-tabs/integration-guide/) to see the implementation of Google Custom chrome tabs in Android
 - [Set up an icon for your project](https://developer.android.com/studio/write/image-asset-studio)
+
+#### Volley Networking library by Google 
+- [Explore Volley Here](https://google.github.io/volley/)
+
+### Assignment
+**Develop a Project based on [Google Books API](https://developers.google.com/books) and do Implement the following features**
+- Authenticate the user with the help of [Google Sign in API](https://developers.google.com/identity/sign-in/android/start-integrating) and let the user sign in to your app.
+- Get The books that are queried by the users.
+- When a book is tapped from the list of books on RecyclerView, take the user to the Details Screen where the entire information realted to the book can be seen.
+- Please refer to this [Prototype of the Application](https://www.canva.com/design/DAE7Pql_ZW4/hCJXqplFz-WZVQewPPdz1A/edit?utm_content=DAE7Pql_ZW4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
