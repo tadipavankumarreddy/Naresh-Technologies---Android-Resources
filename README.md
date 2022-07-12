@@ -140,3 +140,7 @@
 - When a book is tapped from the list of books on RecyclerView, take the user to the Details Screen where the entire information realted to the book can be seen.
 - Please refer to this [Prototype of the Application](https://www.canva.com/design/DAE7Pql_ZW4/hCJXqplFz-WZVQewPPdz1A/edit?utm_content=DAE7Pql_ZW4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - Submit the Assignment in by pushing the code to github public project and email the link to ```pavankreddy.t@gmail.com``` on or before 20<sup>th</sup> July 2022.
+
+#### Retrofit & executors Concepts
+- [click here](https://square.github.io/retrofit/) to explore Retrofit Networking Library
+- [Click here](https://developer.android.com/reference/java/util/concurrent/Executor) to explore Executors in Java that is a replacement of AsyncTask.
