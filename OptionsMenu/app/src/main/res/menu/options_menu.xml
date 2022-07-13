@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="First"
+        android:icon="@drawable/ic_baseline_adjust_24"
+        app:showAsAction="always"
+        android:id="@+id/first"/>
+    <item android:title="Second"
+        app:showAsAction="always"
+        android:id="@+id/second"/>
+    <item android:title="Third"
+        android:id="@+id/third"/>
+    <item android:title="Fourth"
+        android:id="@+id/fourth"/>
+
+</menu>
