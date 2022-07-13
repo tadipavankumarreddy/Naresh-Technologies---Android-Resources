@@ -144,3 +144,7 @@
 #### Retrofit & executors Concepts
 - [click here](https://square.github.io/retrofit/) to explore Retrofit Networking Library
 - [Click here](https://developer.android.com/reference/java/util/concurrent/Executor) to explore Executors in Java that is a replacement of AsyncTask.
+
+#### Menus and SharedPreferences
+- [Click](https://developer.android.com/guide/topics/ui/menus) to read more on Menus in android
+- [Click](https://developer.android.com/training/data-storage/shared-preferences) to read more on SharedPreferences
