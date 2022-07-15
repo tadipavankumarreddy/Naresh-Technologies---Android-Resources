@@ -148,3 +148,8 @@
 #### Menus and SharedPreferences
 - [Click](https://developer.android.com/guide/topics/ui/menus) to read more on Menus in android
 - [Click](https://developer.android.com/training/data-storage/shared-preferences) to read more on SharedPreferences
+
+#### Internal and External Storage in android
+- [click here](https://developer.android.com/training/data-storage) to explore internal Memory
+- [Click here](https://developer.android.com/training/data-storage) to explore External Memory
+- [Dynamic Permissions in Android](https://developer.android.com/guide/topics/permissions/overview#:~:text=Runtime%20permissions%2C%20also%20known%20as,the%20system%20and%20other%20apps.) can be explored here
