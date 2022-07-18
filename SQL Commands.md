@@ -5,6 +5,17 @@
   - Storing
   - Retrieving
   - Modifying
+
+[Click Here](https://sqliteonline.com/) to practice the commands below.
+
+###### Table Sample used 
+***Table name: students_data***
+student_id|student_name|student_age
+----------|-----------|-----------
+1|Pavan Kumar|28
+2|Md Naveed|22
+3|Chester|21
+4|Darshana|20
   
 SQLite - Is a Database which is light weight database
 - It is embedded in Android by default.
