@@ -153,3 +153,8 @@
 - [click here](https://developer.android.com/training/data-storage) to explore internal Memory
 - [Click here](https://developer.android.com/training/data-storage) to explore External Memory
 - [Dynamic Permissions in Android](https://developer.android.com/guide/topics/permissions/overview#:~:text=Runtime%20permissions%2C%20also%20known%20as,the%20system%20and%20other%20apps.) can be explored here
+
+###### Generating Debug APK for distribution of your app
+
+open App on Android studio -> Buid -> Build Bundle(s)/APK -> APK
+
