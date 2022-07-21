@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         values.put(DatabaseHelper.COL_1, n);
         values.put(DatabaseHelper.COL_2, a);
         dbHelper.insertDatatoDB(values);
+        Toast.makeText(this, "INSERTION IS SUCCESSFUL", Toast.LENGTH_SHORT).show();
     }
 
     // READ
@@ -64,12 +66,14 @@ public class MainActivity extends AppCompatActivity {
         values.put(DatabaseHelper.COL_1, n);
         values.put(DatabaseHelper.COL_2, age2);
         dbHelper.updateData(values,s_id);
+        Toast.makeText(this, "DATA is updated", Toast.LENGTH_SHORT).show();
     }
 
     // DELETE
     public void deleteData(View view) {
         int s_id = Integer.parseInt(id.getText().toString());
         dbHelper.delete(s_id);
+        Toast.makeText(this, "Data is removed", Toast.LENGTH_SHORT).show();
     }
 
     // This method is used to connect the views

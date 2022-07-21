@@ -46,7 +46,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = getWritableDatabase();
 
         db.insert(TABLE_NAME,null,contentValues);
-        Toast.makeText(context, "INSERTION IS SUCCESSFUL", Toast.LENGTH_SHORT).show();
+
     }
 
     // This is the helper method to fetch the data out of the database
@@ -59,13 +59,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void updateData(ContentValues values, int id){
         SQLiteDatabase db = this.getWritableDatabase();
         db.update(TABLE_NAME,values,COL_0+"="+id,null);
-        Toast.makeText(context, "DATA is updated", Toast.LENGTH_SHORT).show();
+
     }
     
     // This is the helper method for delete
     public void delete(int id){
         SQLiteDatabase db = this.getWritableDatabase();
         db.execSQL("DELETE FROM "+TABLE_NAME+" where "+COL_0+"="+id);
-        Toast.makeText(context, "Data is removed", Toast.LENGTH_SHORT).show();
+
     }
 }
