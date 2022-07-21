@@ -158,3 +158,8 @@
 
 open App on Android studio -> Buid -> Build Bundle(s)/APK -> APK
 
+***SQLiteDatabase for Android***
+- [Explore](https://developer.android.com/jetpack/androidx/releases/sqlite?gclid=Cj0KCQjw8uOWBhDXARIsAOxKJ2EKK0lZz5dnfxhQoymjmaI1pLAuk3aLcGtNEGbPi6iPAWHHyAWiHeAaAs8mEALw_wcB&gclsrc=aw.ds) SQLite here
+
+***Content Provider & Content Resolver***
+- [Explore](https://developer.android.com/guide/topics/providers/content-provider-basics#:~:text=A%20content%20provider%20manages%20access,using%20a%20provider%20client%20object.) Content Provider here.
