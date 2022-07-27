@@ -163,3 +163,14 @@ open App on Android studio -> Buid -> Build Bundle(s)/APK -> APK
 
 ***Content Provider & Content Resolver***
 - [Explore](https://developer.android.com/guide/topics/providers/content-provider-basics#:~:text=A%20content%20provider%20manages%20access,using%20a%20provider%20client%20object.) Content Provider here.
+
+#### [Notifications In Android](https://developer.android.com/guide/topics/ui/notifiers/notifications)
+
+#### [Permissions](https://developer.android.com/guide/topics/permissions/overview)
+
+#### [Alarm Managers](https://developer.android.com/reference/android/app/AlarmManager)
+
+#### [JobSchedulers](https://developer.android.com/reference/android/app/job/JobScheduler)
+
+
+
