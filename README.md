@@ -172,8 +172,8 @@ open App on Android studio -> Buid -> Build Bundle(s)/APK -> APK
 
 #### [JobSchedulers](https://developer.android.com/reference/android/app/job/JobScheduler)
 
-- Explore Google recommended ![ExoPlayer](https://developer.android.com/guide/topics/media/exoplayer) here.
+- Explore Google recommended [ExoPlayer](https://developer.android.com/guide/topics/media/exoplayer) here.
 
-- Read more about services ![here](https://developer.android.com/guide/components/services)
+- Read more about services [here](https://developer.android.com/guide/components/services)
 
-- If you want to play music and video files, explore ![Media Player](https://developer.android.com/reference/android/media/MediaPlayer)
+- If you want to play music and video files, explore [Media Player](https://developer.android.com/reference/android/media/MediaPlayer)
