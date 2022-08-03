@@ -177,3 +177,5 @@ open App on Android studio -> Buid -> Build Bundle(s)/APK -> APK
 - Read more about services [here](https://developer.android.com/guide/components/services)
 
 - If you want to play music and video files, explore [Media Player](https://developer.android.com/reference/android/media/MediaPlayer)
+
+#### [Room Database](https://developer.android.com/training/data-storage/room)
